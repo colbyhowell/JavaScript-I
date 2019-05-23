@@ -123,7 +123,7 @@ let BMWAndAudi = [];
 
 for(i = 0; i < inventory.length; i++){
 
-  make = inventory[i].car_make;
+  let make = inventory[i].car_make;
   if(make === "Audi"|| make === "BMW"){
     BMWAndAudi.push(inventory[i])
   }
